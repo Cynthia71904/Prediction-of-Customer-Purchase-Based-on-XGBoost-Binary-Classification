@@ -8,21 +8,21 @@ This project demonstrates how to use XGBoost for binary classification. The goal
 
 Before running the code, you'll need to install the following Python packages:
 
-xgboost
+'xgboost'
 
-scikit-learn
+'scikit-learn'
 
-matplotlib
+'matplotlib'
 
-seaborn
+'seaborn'
 
 You can install them with this command:
 
-pip install xgboost scikit-learn matplotlib seaborn
+'''pip install xgboost scikit-learn matplotlib seaborn'''
 
 # Features
 
-Data Generation: A synthetic dataset is created using sklearn.datasets.make_classification.
+Data Generation: A synthetic dataset is created using 'sklearn.datasets.make_classification'.
 
 Model Training: The dataset is split into training and testing sets. XGBoost is then used to train a binary classification model.
 
@@ -32,9 +32,7 @@ Evaluation: The model's performance is evaluated using accuracy and visualized w
 
 Clone the repository to your local machine.
 
-Install the required dependencies by running pip install -r requirements.txt.
-
-Run the main script with the command python main.py.
+Run the main script with the command 'python CBpredi.py'.
 
 Visualizations Included
 
